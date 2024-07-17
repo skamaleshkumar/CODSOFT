@@ -2,11 +2,13 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+  
 }
 
 .header{
     display: flex;
     background-color: black;
+  
 }
 .logo{
    flex: 1;
@@ -16,12 +18,16 @@
     width: 100px;
 }
 .name{
-    color:  rgba(165, 17, 194, 0.637);
-    font-family: "Ga Maamli", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-size: 2rem;
     position: absolute;
-    padding: 30px 0px 0px 80px;
+    padding: 10px 0px 0px 80px;
+        height: 100px;
+        background: url(./images/trees-8512979_640.jpg);
+        background-clip: text;
+        background-size: cover;
+        -webkit-background-clip: text;
+        color: transparent;
+
 }
 .nav{
     margin-right:50px ;
